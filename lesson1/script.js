@@ -56,7 +56,7 @@ const renderPagination = (array) => {
 	${stringHTMLLiTags}
 	<li class="page-item"><a class="page-link" href="#">Next</a></li>
 	`;
-	document.getElementById('pagination').innerHTML = stringHTML;
+	document.getElementById('pagination').innerHTML = htmlPagination;
 }
 
 const calAverageScore = (math_score, english_score, literature_score) =>
